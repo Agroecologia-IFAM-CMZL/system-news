@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <title> Forms Conteudo </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.112.5">
+
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta http-equiv="origin-trial" content="admin-ifam-2023-agro">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="../styles-toggle.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="../assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="../assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="../assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="../assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="../assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+</head>
+<body class="d-flex align-items-center py-4 bg-body-secondary">
+    <main class="form w-50 m-auto">
+        <form>
+            <img class="mb-4 mx-auto d-block" src="../assets/brand/bootstrap-logo.svg" width="72" height="57">
+
+            <div class="form-group mb-4">
+                <label for="idTitle">Título</label>
+                <input required type="text" class="form-control" id="idTitle" placeholder="Título da Materia">
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="idCaption">Sub-título</label>
+                <input required type="text" class="form-control" id="idCaption" placeholder="Sub-título da Materia">
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="idParagraph1">Parágrafo 1</label>
+                <textarea class="form-control" id="idParagraph1" rows="3"></textarea>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="idParagraph2">Parágrafo 2</label>
+                <textarea class="form-control" id="idParagraph2" rows="3"></textarea>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="idParagraph3">Parágrafo 3</label>
+                <textarea class="form-control" id="idParagraph3" rows="3"></textarea>
+            </div>
+
+            <button class="btn btn-success w-40 py-2 float-end" type="submit" onclick="sendForms()">Re-Enviar</button>
+
+            <a href="../painel/index.html" class="btn btn-outline-success w-40 py-2 float-start" role="button">Painel</a>
+          </form>
+    </main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script async defer defer type="text/javascript" src="./script.js"></script>
+</body>
+</html>
