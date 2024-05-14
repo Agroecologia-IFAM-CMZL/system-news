@@ -1,4 +1,4 @@
 git add -A
-git commit -m "pages done | done: connection with API in 'DEL' and 'PUT' routes"
+git commit -m "to-do: DEL/PUT routes work in frontend"
 git push -u origin main
 git status

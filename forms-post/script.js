@@ -1,7 +1,7 @@
 let accessToken = localStorage.getItem('accessToken').replace(/['"]+/g, ""); // tirando as aspas
 
 async function sendForms() {
-    await fetch('http://localhost:3030/api/news/', {
+    await fetch('http://localhost:3030/api/news/insert', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
